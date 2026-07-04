@@ -9,6 +9,6 @@ To initialize your terminal configuration, run the following command based on yo
 **For Zsh:**
 
 ```bash
-source <(curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/refs/heads/main/.zshrc)
+curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/main/initZshell.sh | zsh && source ~/.zshrc
 
 ```
