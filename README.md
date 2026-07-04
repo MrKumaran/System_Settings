@@ -1,0 +1,14 @@
+# System Config & Init
+
+This repository contains my system configuration files and initialization scripts for setting up new machines. It is primarily used to maintain consistent terminal configurations for Zsh and Bash.
+
+### Setup
+
+To initialize your terminal configuration, run the following command based on your shell:
+
+**For Zsh:**
+
+```bash
+source <(curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/refs/heads/main/.zshrc)
+
+```
