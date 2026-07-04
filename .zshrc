@@ -15,11 +15,6 @@ alias ..="cd .."
 alias ll="ls -la"
 alias grep="grep --colour=always" 
 
-
-# Exports
-export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk@21/include"
-
 google() {
         open "https://www.google.com/search?q=$*"
 }
