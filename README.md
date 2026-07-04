@@ -16,7 +16,7 @@ curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/main/initZsh
 **For Bash:**
 
 ```bash
-curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/main/initBash.sh | zsh && source ~/.zshrc
+curl -s https://raw.githubusercontent.com/MrKumaran/System_Settings/main/initBash.sh | zsh && source ~/.bashrc
 
 ```
 *Bash version < 4.0 will show `bash: shopt: autocd: invalid shell option name`; this is harmless - Bash works as normal. To remove this error, you can either comment or remove "shopt -s autocd" line else update your Bash shell
